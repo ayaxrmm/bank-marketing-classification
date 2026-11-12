@@ -1,4 +1,4 @@
-# Bank Marketing — Predicting Term-Deposit Subscription
+# Bank Marketing - Predicting Term-Deposit Subscription
 
 Binary classification on the UCI **Bank Marketing** dataset (41,188 clients, 20 features): will a client subscribe to a term deposit after a phone call?
 The project covers the full workflow — EDA, leakage-aware preprocessing, class-imbalance handling, six models, evaluation and business insights.
