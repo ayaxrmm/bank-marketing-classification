@@ -43,4 +43,13 @@ jupyter notebook bank_marketing_classification.ipynb
 Python · pandas · NumPy · scikit-learn · XGBoost · Matplotlib · seaborn
 
 ## Data
-Moro, S., Rita, P., & Cortez, P. (2014). *Bank Marketing* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5K306
+UCI Machine Learning Repository. https://doi.org/10.24432/C5K306
+Download **bank-additional.zip** from the UCI repository:
+https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+Unzip it and put `bank-additional-full.csv` in this folder:
+
+```
+data/bank-additional-full.csv
+```
+
