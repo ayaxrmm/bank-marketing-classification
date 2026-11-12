@@ -3,7 +3,7 @@
 Binary classification on the UCI **Bank Marketing** dataset (41,188 clients, 20 features): will a client subscribe to a term deposit after a phone call?
 The project covers the full workflow — EDA, leakage-aware preprocessing, class-imbalance handling, six models, evaluation and business insights.
 
-📓 **Notebook:** [`bank_marketing_classification.ipynb`](bank_marketing_classification.ipynb)
+**Notebook:** [`bank_marketing_classification.ipynb`](bank_marketing_classification.ipynb)
 
 ## Highlights
 - **Data leakage removed:** `duration` is known only *after* the call, so it was dropped to keep the model realistic.
@@ -32,7 +32,7 @@ Random baseline for PR-AUC ≈ 0.113. Tuning the Random Forest threshold to 0.64
 
 ## How to run
 ```bash
-git clone https://github.com/<your-username>/bank-marketing-classification.git
+git clone https://github.com/ayaxrmm/bank-marketing-classification.git
 cd bank-marketing-classification
 pip install -r requirements.txt
 # download the data — see data/README.md
